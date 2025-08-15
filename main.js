@@ -26,6 +26,7 @@ for (let i = 0; i < proj_arr.length; i++) {
     div3.appendChild(h3);
 
     const div4 = document.createElement('div');
+    div4.className = "icon-container";
     let img_arr = ["img/github.svg", "img/linkedin.svg"];
     let alt_arr = ['GitHub', 'LinkedIn'];
 
